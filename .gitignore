@@ -221,3 +221,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Duck ignore stuff: tillagt av mig (wal write ahead log och tempfiler)
+*.wal
+*.tmp/
+*.duckdb*
